@@ -62,7 +62,7 @@ btnRoll.addEventListener('click', () => {
       // 2. displaying dice
       var diceDOM = diceEl
       diceDOM.style.display = 'block';
-      diceDOM.src = 'dice-' + dice + '.png';
+      diceDOM.src = './img/dice-' + dice + '.png';
       // 3. updating the dice value if the dice score is not 1
       if (dice !== 1) {
          // adding score
